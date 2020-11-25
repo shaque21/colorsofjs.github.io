@@ -1,0 +1,28 @@
+*{
+	font-family: monospace;
+}
+#container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+}
+h1{
+	color: purple;
+}
+h2,
+span{
+	font-size: 18px;
+	display: inline-block;
+}
+.box{
+	height: 200px;
+	width: 100px;
+}
+.box:hover{
+	cursor: pointer;
+}
+#selectedColor{
+	color: #fff;
+	padding: 5px 10px;
+}
